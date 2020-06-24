@@ -1,0 +1,136 @@
+1. pseudocode
+a. class operasibilanganabs
+-declare class OperasiBilanganAbs;
+-declare variable a, b, c : double;
+-Algorithm:
+set(A);
+set(B);
+set(C);
+
+get(A);
+get(B);
+get(C);
+
+tampil<- a , b;
+write(tampil);
+
+b. class operasipenjumlahan
+-declare class OperasPenjumlahan;
+-declare extends to OperasiBilanganAbs;
+-declare variable a, b, c : double;
+-declare override variable a,b,c;
+-declare override method setter getter;
+-Algorithm:
+set(A);
+set input a to A
+set(B);
+set input b to B
+set(C)
+set input c to C
+
+get(A)
+return a
+get(B)
+return b
+get(C)
+return c
+
+tampil<- a + b
+write("HASIL :" +c)
+
+c. class operasipengurangan
+-declare class OperasPengurangan;
+-declare extends to OperasiBilanganAbs;
+-declare variable a, b, c : double;
+-declare override variable a,b,c;
+-declare override method setter getter;
+-Algorithm:
+set(A);
+set input a to A
+set(B);
+set input b to B
+set(C)
+set input c to C
+
+get(A)
+return a
+get(B)
+return b
+get(C)
+return c
+
+tampil<- a - b
+write("HASIL :" +c)
+
+d. class operasiperkalian
+-declare class OperasPerkalian;
+-declare extends to OperasiBilanganAbs;
+-declare variable a, b, c : double;
+-declare override variable a,b,c;
+-declare override method setter getter;
+-Algorithm:
+set(A);
+set input a to A
+set(B);
+set input b to B
+set(C)
+set input c to C
+
+get(A)
+return a
+get(B)
+return b
+get(C)
+return c
+
+tampil<- a * b
+write("HASIL :" +c)
+
+e. class operasipembagian
+-declare class OperasPembagian;
+-declare extends to OperasiBilanganAbs;
+-declare variable a, b, c : double;
+-declare override variable a,b,c;
+-declare override method setter getter;
+-Algorithm:
+set(A);
+set input a to A
+set(B);
+set input b to B
+set(C)
+set input c to C
+
+get(A)
+return a
+get(B)
+return b
+get(C)
+return c
+
+tampil<- a / b
+write("HASIL :" +c)
+
+f. class OperasiBilanganAbsCetak
+-declare class OperasiBilanganAbsCetak;
+-declare OperasiBilanganAbs as OB;
+-declare variable a, b-> double
+
+-Algorithm:
+set(A)
+set input a to A
+set(B)
+set input b to B
+set(C)
+set input c to C
+
+-declare main method
+-ALgorithm:
+
+-create new object from Class:OperasiPenjumlahan, Operasi Pengurangan, OperasiPerkalian, OperasiPembagian;
+-hasiljumlah<-a,b;
+-hasilkurang<-a,b;
+-hasilkali<-a,b;
+-hasilbagi<-a,b;
+
+
+
